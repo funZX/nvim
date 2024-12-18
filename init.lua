@@ -24,6 +24,10 @@ local lazy_config = {
     },
   },
 
+  rocks = {
+    enabled = false,
+  },
+
   performance = {
     rtp = {
       disabled_plugins = {
