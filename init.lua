@@ -64,7 +64,7 @@ require("lazy").setup({
   {
     "funZX/nvchad",
     lazy = false,
-    branch = "v2.5",
+    branch = "v2.5.funZX",
     import = "nvchad.plugins",
   },
 }, lazy_config)
