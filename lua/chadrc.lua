@@ -7,11 +7,16 @@ local M = {}
 
 M.base46 = {
 	theme = "tokyonight",
+	integrations = { "dap" },
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+}
+
+M.ui = {
+	telescope = { style = "bordered" },
 }
 
 M.mason = { 
@@ -24,6 +29,6 @@ M.mason = {
         "cssls",
     }, 
 	skip = {} 
-},
+}
 
 return M
