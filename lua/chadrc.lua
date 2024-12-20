@@ -6,8 +6,29 @@
 local M = {}
 
 M.base46 = {
-	theme = "decay",
+	theme = "tokyonight",
 	integrations = { "dap" },
+
+	hl_override = {
+	    Comment = {
+	        italic = true,
+	    },
+	    Normal = {
+	        bg = "NONE"
+	    },
+	    TelescopeBorder = {
+	        fg = "#7aa2f7",
+	    },
+	    TelescopePreviewBorder = {
+	        fg = "#7aa2f7",
+	    },
+	    TelescopePromptBorder = {
+	        fg = "#7aa2f7",
+	    },
+	    TelescopeResultBorder = {
+	        fg = "#7aa2f7",
+	    },
+	}
 }
 
 M.telescope = {
