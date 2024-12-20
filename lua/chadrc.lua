@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "tokyonight",
+	theme = "decay",
 	integrations = { "dap" },
 
 	-- hl_override = {
@@ -21,12 +21,9 @@ M.ui = {
 
 M.mason = { 
 	pkgs = { 
-		"lua_ls",
+		"lua-language-server",
+        "bash-language-server",
         "pyright",
-        "bashls",
-        "jsonls",
-        "html",
-        "cssls",
     }, 
 	skip = {} 
 }
