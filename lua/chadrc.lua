@@ -8,22 +8,19 @@ local M = {}
 M.base46 = {
 	theme = "decay",
 	integrations = { "dap" },
+}
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+M.telescope = {
+
 }
 
 M.ui = {
-	telescope = { style = "bordered" },
+	telescope = { style = "bordered", },
 }
 
 M.mason = { 
-	pkgs = { 
-		"lua-language-server",
-        "bash-language-server",
-        "pyright",
+	pkgs = {
+        "bash-debug-adapter",
     }, 
 	skip = {} 
 }
