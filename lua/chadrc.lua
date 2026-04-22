@@ -39,18 +39,4 @@ M.ui = {
 	telescope = { style = "bordered", },
 }
 
-M.mason = { 
-	pkgs = {
-        "bash-debug-adapter",
-    }, 
-	skip = {} 
-}
-
--- M.nvdash = { load_on_startup = true }
--- M.ui = {
---       tabufline = {
---          lazyload = false
---      }
---}
-
 return M
