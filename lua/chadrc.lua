@@ -16,27 +16,10 @@ M.base46 = {
 	    Normal = {
 	        bg = "NONE"
 	    },
-	    TelescopeBorder = {
-	        fg = "#7aa2f7",
-	    },
-	    TelescopePreviewBorder = {
-	        fg = "#7aa2f7",
-	    },
-	    TelescopePromptBorder = {
-	        fg = "#7aa2f7",
-	    },
-	    TelescopeResultBorder = {
-	        fg = "#7aa2f7",
-	    },
 	}
 }
 
-M.telescope = {
-
-}
-
 M.ui = {
-	telescope = { style = "bordered", },
 }
 
 return M
