@@ -85,3 +85,6 @@ vim.schedule(function()
   require "mappings"
 end)
 
+vim.cmd("aunmenu PopUp")
+vim.cmd("autocmd! nvim.popupmenu")
+
