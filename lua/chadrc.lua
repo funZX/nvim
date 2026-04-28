@@ -8,15 +8,8 @@ local M = {}
 M.base46 = {
     theme = "nord",
     integrations = {
-        "blankline",
-        "blink",
         "dap",
-        "git",
-        "lsp",
         "notify",
-        "nvimtree",
-        "treesitter",
-        "whichkey"
     },
 
     hl_override = {
